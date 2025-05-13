@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_044ffe88ba58cbf6dd04b9a376a04b46 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_044ffe88ba58cbf6dd04b9a376a04b46" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_044ffe88ba58cbf6dd04b9a376a04b46 = L.map(
+                "map_044ffe88ba58cbf6dd04b9a376a04b46",
+                {
+                    center: [38.0, 35.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c58f469408ee9f67ec6af816afcb8c5b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c58f469408ee9f67ec6af816afcb8c5b.addTo(map_044ffe88ba58cbf6dd04b9a376a04b46);
+        
+    
+            var marker_cluster_b1dc0546552c27e217436e48ff9881e5 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_c8c531a96bf99031ed0d00d76fee2410 = L.marker(
+                [-13.4576, -111.2241],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_b909351c7a00c758b6f3166730f2ddab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7acf395e15a528d5137f94f766dde5f0 = $(`<div id="html_7acf395e15a528d5137f94f766dde5f0" style="width: 100.0%; height: 100.0%;">central East Pacific Rise<br>Büyüklük: 5.1<br>Zaman: 2025-05-13 14:32:14.766000</div>`)[0];
+                popup_b909351c7a00c758b6f3166730f2ddab.setContent(html_7acf395e15a528d5137f94f766dde5f0);
+            
+        
+
+        marker_c8c531a96bf99031ed0d00d76fee2410.bindPopup(popup_b909351c7a00c758b6f3166730f2ddab)
+        ;
+
+        
+    
+    
+            var marker_9634ae116743fe61583eb00329ed346c = L.marker(
+                [-19.5793, -176.3948],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_815c6de95e8e5cfef258b66a91ded535 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42c0868a7b68f200749ae3e7b02a0941 = $(`<div id="html_42c0868a7b68f200749ae3e7b02a0941" style="width: 100.0%; height: 100.0%;">209 km NNW of Houma, Tonga<br>Büyüklük: 4.5<br>Zaman: 2025-05-13 04:13:46.043000</div>`)[0];
+                popup_815c6de95e8e5cfef258b66a91ded535.setContent(html_42c0868a7b68f200749ae3e7b02a0941);
+            
+        
+
+        marker_9634ae116743fe61583eb00329ed346c.bindPopup(popup_815c6de95e8e5cfef258b66a91ded535)
+        ;
+
+        
+    
+    
+            var marker_25e37d4380f4e0479debd27bbb162971 = L.marker(
+                [66.478, -17.4323],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_d13d81543a1edbecfba764d3f7876f0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e434e488b623a2b1ee86d113169b55dd = $(`<div id="html_e434e488b623a2b1ee86d113169b55dd" style="width: 100.0%; height: 100.0%;">48 km N of Norðurþing, Iceland<br>Büyüklük: 4.7<br>Zaman: 2025-05-13 04:02:04.416000</div>`)[0];
+                popup_d13d81543a1edbecfba764d3f7876f0f.setContent(html_e434e488b623a2b1ee86d113169b55dd);
+            
+        
+
+        marker_25e37d4380f4e0479debd27bbb162971.bindPopup(popup_d13d81543a1edbecfba764d3f7876f0f)
+        ;
+
+        
+    
+    
+            var marker_a0626edb3b7b409987cc565858172bc3 = L.marker(
+                [37.1244, 140.57],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_0dba011986032cf3cc3af60b4a6a1e6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbb02881ed7b994a641c6c02dec269c1 = $(`<div id="html_cbb02881ed7b994a641c6c02dec269c1" style="width: 100.0%; height: 100.0%;">11 km ESE of Ishikawa, Japan<br>Büyüklük: 4.8<br>Zaman: 2025-05-13 01:37:03.023000</div>`)[0];
+                popup_0dba011986032cf3cc3af60b4a6a1e6f.setContent(html_cbb02881ed7b994a641c6c02dec269c1);
+            
+        
+
+        marker_a0626edb3b7b409987cc565858172bc3.bindPopup(popup_0dba011986032cf3cc3af60b4a6a1e6f)
+        ;
+
+        
+    
+    
+            var marker_67c421145f92a8a2b0960e615cf91068 = L.marker(
+                [-51.4209, -71.859],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_4a34196a52973a586133074fae015b7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06dcef09e28020dcd5eefdbe462fbedf = $(`<div id="html_06dcef09e28020dcd5eefdbe462fbedf" style="width: 100.0%; height: 100.0%;">30 km NE of 28 de Noviembre, Argentina<br>Büyüklük: 5.1<br>Zaman: 2025-05-13 00:48:00.545000</div>`)[0];
+                popup_4a34196a52973a586133074fae015b7f.setContent(html_06dcef09e28020dcd5eefdbe462fbedf);
+            
+        
+
+        marker_67c421145f92a8a2b0960e615cf91068.bindPopup(popup_4a34196a52973a586133074fae015b7f)
+        ;
+
+        
+    
+    
+            var marker_2922feefb7527e32bc9c3ce26a05b9e2 = L.marker(
+                [36.6369, 25.6455],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_52069fea14524c2f701b9075744bce1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9609588b1aafb32ec6a58fb5bca462ba = $(`<div id="html_9609588b1aafb32ec6a58fb5bca462ba" style="width: 100.0%; height: 100.0%;">30 km NE of Firá, Greece<br>Büyüklük: 4.9<br>Zaman: 2025-05-12 23:30:09.780000</div>`)[0];
+                popup_52069fea14524c2f701b9075744bce1c.setContent(html_9609588b1aafb32ec6a58fb5bca462ba);
+            
+        
+
+        marker_2922feefb7527e32bc9c3ce26a05b9e2.bindPopup(popup_52069fea14524c2f701b9075744bce1c)
+        ;
+
+        
+    
+    
+            var marker_9269e5d176495ad7aa681213001129ce = L.marker(
+                [-6.0499, 151.732],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_a3825cd2d3b363f3002cde5d439e6d49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_038b140cb814f94025992b4931423c47 = $(`<div id="html_038b140cb814f94025992b4931423c47" style="width: 100.0%; height: 100.0%;">185 km ESE of Kimbe, Papua New Guinea<br>Büyüklük: 4.9<br>Zaman: 2025-05-12 23:12:17.142000</div>`)[0];
+                popup_a3825cd2d3b363f3002cde5d439e6d49.setContent(html_038b140cb814f94025992b4931423c47);
+            
+        
+
+        marker_9269e5d176495ad7aa681213001129ce.bindPopup(popup_a3825cd2d3b363f3002cde5d439e6d49)
+        ;
+
+        
+    
+    
+            var marker_e6a79b9c340a7dd11e7d04b46ec4bd2e = L.marker(
+                [42.5768, 141.9457],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_b8734362ce48749ef72a4c336369db84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef64f4bdb441a006b8ef47c7fba975db = $(`<div id="html_ef64f4bdb441a006b8ef47c7fba975db" style="width: 100.0%; height: 100.0%;">15 km W of Biratori, Japan<br>Büyüklük: 4.5<br>Zaman: 2025-05-12 21:33:35.492000</div>`)[0];
+                popup_b8734362ce48749ef72a4c336369db84.setContent(html_ef64f4bdb441a006b8ef47c7fba975db);
+            
+        
+
+        marker_e6a79b9c340a7dd11e7d04b46ec4bd2e.bindPopup(popup_b8734362ce48749ef72a4c336369db84)
+        ;
+
+        
+    
+    
+            var marker_aa470d7ca301ea6d5ce7d2671d3b669a = L.marker(
+                [53.1865, 159.2043],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_b2b40b1f04dc8bffc5fcaecc12c1b2ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9eb382547ca09eda4e1a131975999210 = $(`<div id="html_9eb382547ca09eda4e1a131975999210" style="width: 100.0%; height: 100.0%;">40 km ENE of Petropavlovsk-Kamchatsky, Russia<br>Büyüklük: 4.5<br>Zaman: 2025-05-12 17:17:15.241000</div>`)[0];
+                popup_b2b40b1f04dc8bffc5fcaecc12c1b2ca.setContent(html_9eb382547ca09eda4e1a131975999210);
+            
+        
+
+        marker_aa470d7ca301ea6d5ce7d2671d3b669a.bindPopup(popup_b2b40b1f04dc8bffc5fcaecc12c1b2ca)
+        ;
+
+        
+    
+    
+            var marker_0c694830477c4cb0f388d223a5cb42ca = L.marker(
+                [2.1083, 126.7615],
+                {
+}
+            ).addTo(marker_cluster_b1dc0546552c27e217436e48ff9881e5);
+        
+    
+        var popup_f9237b357d05600a890656f44c95f4da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_910ab01bf2cb5cb9b4995b2f0e3a66a2 = $(`<div id="html_910ab01bf2cb5cb9b4995b2f0e3a66a2" style="width: 100.0%; height: 100.0%;">145 km WNW of Tobelo, Indonesia<br>Büyüklük: 5.1<br>Zaman: 2025-05-12 17:01:40.278000</div>`)[0];
+                popup_f9237b357d05600a890656f44c95f4da.setContent(html_910ab01bf2cb5cb9b4995b2f0e3a66a2);
+            
+        
+
+        marker_0c694830477c4cb0f388d223a5cb42ca.bindPopup(popup_f9237b357d05600a890656f44c95f4da)
+        ;
+
+        
+    
+    
+            marker_cluster_b1dc0546552c27e217436e48ff9881e5.addTo(map_044ffe88ba58cbf6dd04b9a376a04b46);
+        
+</script>
+</html>
